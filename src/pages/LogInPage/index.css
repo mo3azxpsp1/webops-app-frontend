@@ -1,0 +1,85 @@
+.login-page {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  color: #af1e1e;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.email, .password {
+  display: block;
+  padding-top: 20px;
+}
+
+.password {
+  padding-bottom: 20px;
+}
+
+#login-button {
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #b22121;
+  color: #b22121;
+  text-align: center;
+}
+
+#signup-link {
+  text-decoration: none;
+  color: #b22121;
+  border: 2px solid #b22121;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.email .field,
+.password .field {
+  border: 2px solid #b22121;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.email label,
+.password label {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.login-form form {
+  border: 2px solid #b22121;
+  box-shadow: 0px 0px 10px 5px #ccc;
+  width: 90%;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #ffaf49;
+}
+
+.login-form p {
+  padding-top: 5%;
+  font-size: 16px;
+}
+
+.welcome-msg {
+  float: left;
+  width: 60%;
+  padding-top: 5%;
+}
+
+.login-form {
+  float: right;
+  width: 40%;
+  padding-top: 4%;
+  padding-right: 10%;
+  font-weight: bold;
+}
+
+.welcome-msg p {
+  font-size: 50px;
+}
