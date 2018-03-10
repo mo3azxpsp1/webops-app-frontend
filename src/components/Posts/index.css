@@ -1,0 +1,19 @@
+#post-input {
+	padding : 10px;
+  	font-size : 16px;
+  	border : 1px solid black;
+  	width :500px;
+  	height: 75px;
+  	margin-top: 5px;
+}
+
+#add-post-button {
+	padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+  cursor: pointer;
+}

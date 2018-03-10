@@ -1,0 +1,17 @@
+.one-comment {
+	background-color: grey;
+  padding: 15px;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto; 
+  margin-top: 10px;
+}
+
+#comment-input {
+	padding : 10px;
+  	font-size : 16px;
+  	border : 1px solid black;
+  	width :500px;
+  	height: 40px;
+  	margin-top: 5px;
+}

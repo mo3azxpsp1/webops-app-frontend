@@ -1,0 +1,16 @@
+.hidden {
+	display: none;
+}
+
+.visible {
+	cursor: pointer;
+}
+
+.one-post {
+  background-color: grey;
+  padding: 15px;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto; 
+  margin-top: 10px;
+}

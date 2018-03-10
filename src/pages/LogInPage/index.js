@@ -28,11 +28,12 @@ export default class LogIn extends Component{
     })
     .then((response) => {
       const token = response.data.auth_token;
-      console.log(token);
       localStorage.setItem('userName', response.data.first_name);
       localStorage.setItem('jwtToken', token);
       localStorage.setItem('User', true);
       localStorage.setItem('UserFirstName', response.data.first_name );
+      localStorage.setItem('UserFullName', response.data.name );
+      localStorage.setItem('UserId', response.data.id );
       setAuthorizationToken(token);
       this.setState({
         ...this.state,
@@ -48,7 +49,7 @@ export default class LogIn extends Component{
 
   render(){
     if (this.state.redirect){
-      return <Redirect to="/menu" />
+      return <Redirect to="/posts" />
     }
     return(
       <div className="login-page clearfix">
